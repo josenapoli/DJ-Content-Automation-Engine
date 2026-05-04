@@ -21,3 +21,4 @@ models
 # future versions
 **/video_content_generator
 *.wav
+*.WAV
