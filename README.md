@@ -48,9 +48,12 @@ Hemos transformado el motor original en una solución especializada para DJs con
 # Instalar dependencias
 poetry install
 
-# Configurar variables de entorno en .env
+# Configurar variables de entorno en .env (renombrar .env.example)
+AI_PROVIDER=groq
+GEMINI_API_KEY=tu_llave_aqui
+OPENAI_API_KEY=tu_llave_aqui
 GROQ_API_KEY=tu_llave_aqui
-GOOGLE_API_KEY=tu_llave_aqui
+IMAGE_PROVIDER=pollinations
 ```
 
 ### 2. Ejecutar el Pipeline Completo
